@@ -600,8 +600,8 @@ include "./verify.php";
                   <input id="file_select" type="file" name="file[]" style="margin-top: 60px;border: 10px solid beige;width: 80%;" multiple><br>
                   <?php if ($_SESSION['server'] == 1):?>
                     <div style="line-height:16px;padding:10px;">
-                      <span style="font-size:12px;color:#777;margin:10px;">Compress all files in zip
-                        <input type="checkbox" name="zip" value="zip" checked style="position:relative;top:4px;">
+                      <span style="font-size:12px;color:#777;margin:10px; visibility: hidden;">Compress all files in zip
+                        <input type="checkbox" name="zip" value="zip" style="position:relative;top:4px;">
                       </span>
                     </div>
                   <?php endif; ?>
